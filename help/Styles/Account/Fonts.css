@@ -1,0 +1,86 @@
+﻿@font-face {
+    font-family: 'Street 2';
+    src: url("../../fonts/street-2-medium.woff") format("woff"), url("../../fonts/street-2-medium.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Street 2';
+    src: url("../../fonts/street-2-medium-italic.woff") format("woff"), url("../../fonts/street-2-medium-italic.woff2") format("woff2");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Street 2';
+    src: url("../../fonts/street-2-bold.woff") format("woff"), url("../../fonts/street-2-bold.woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Street 2';
+    src: url("../../fonts/street-2-bold-italic.woff") format("woff"), url("../../fonts/street-2-bold-italic.woff2") format("woff2");
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Street 2';
+    src: url('../../fonts/street-2-book.woff') format('woff'), url('../../fonts/street-2-book.woff2') format('woff2');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Street 2';
+    src: url('../../fonts/street-2-book-italic.woff') format('woff'), url('../../fonts/street-2-book-italic.woff2') format('woff2');
+    font-weight: 200;
+    font-style: italic;
+}
+
+
+
+
+@font-face {
+    font-family: 'Street CG2';
+    src: url("../../fonts/streetLCG1-medium.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Street CG2';
+    src: url("../../fonts/streetLCG1-medium-italic.html") format("woff2");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Street CG2';
+    src: url("../../fonts/streetLCG2-bold.woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Street CG2';
+    src: url("../../fonts/streetLCG2-bold-italic.html") format("woff2");
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Street CG2';
+    src: url('../../fonts/streetLCG2-book.woff2') format('woff2');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Street CG2';
+    src: url('../../fonts/streetLCG2-book-italic.html') format('woff2');
+    font-weight: 200;
+    font-style: italic;
+}

@@ -1,0 +1,963 @@
+@media screen and (min-width: 1024px) {
+    body {
+    }
+
+    .PageWrapper {
+        min-height: 100%;
+        margin-bottom: 146px;
+    }
+
+    .BodyHome {
+    }
+
+    .HeaderTitleLabel {
+        font-size: 20px;
+        padding-left: 17.5px;
+    }
+
+    .HeaderRow {
+        /*height:94px;*/
+    }
+    .HeaderSpacer {
+        height: 94px;
+        width: 100%;
+    }
+    .ContactUs .HeaderRow {
+        /*height:95px;*/
+    }
+
+    .Page .Site-content {
+        /*padding-top: 94px;*/
+    }
+
+    .Page .HeaderRow {
+        /*height: 94px;*/
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+    .Page #Site-header {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+
+    .Page .HeaderTitleWrapper {
+        margin-left: 70px;
+    }
+
+    .HeaderLogo {
+        width: 128px;
+        top: 1px;
+        position: relative;
+    }
+
+    .HeaderLinkBlock {
+        width: auto;
+    }
+
+    .Page .HeaderLinkBlock {
+        -webkit-box-flex: 0;
+        -ms-flex: none;
+        flex: none;
+    }
+
+    .ContactUs .HeaderLinkBlock {
+        /*height:95px;*/
+    }
+
+    .HeaderTitleBlock {
+        padding: 35px 0 34px 0;
+    }
+
+    .Page .HeaderTitleBlock {
+        -webkit-box-flex: 0;
+        -ms-flex: none;
+        flex: none;
+    }
+
+    .ContactUs .HeaderTitleBlock {
+
+    }
+
+    .ContactUs .HeaderTitleWrapper {
+
+        margin-left: 70px;
+    }
+
+    .HeaderTitleWrapper {
+        /*line-height: 80px;*/
+        margin-left: 70px;
+    }
+
+    a.HeaderLink {
+        font-size: 18px;
+        line-height: 20px;
+        vertical-align: middle;
+    }
+
+    .Page a.HeaderLink {
+        /*line-height: 48px;*/
+    }
+
+    .HeaderLinkWrapper {
+        margin-right: 20px;
+        padding-top: 39px;
+    }
+
+    .HeaderLanguagePicker {
+        display: inline-block;
+        /*margin-right: 80px;*/
+    }
+
+    .Anon .HeaderLanguagePicker {
+        margin-top: 30px;
+    }
+
+    .ContactUs .HeaderLinkWrapper {
+        margin-right: 80px;
+    }
+
+    .Page .HeaderLinkWrapper {
+        -webkit-box-flex: 0;
+        -ms-flex: none;
+        flex: none;
+    }
+
+        .Page .HeaderLinkWrapper.Search {
+            display: none;
+        }
+
+        .Page .HeaderLinkWrapper.Feedback {
+            display: inline-block;
+        }
+
+    .PageSearchDTWrapper {
+        display: block;
+        width: 100%;
+        /*transform:translateY(calc(50% - 24px));*/
+        /*justify-self: flex-start;
+    vertical-align: middle;
+    -ms-grid-row-align: center;
+    -ms-grid-column-align: center;
+    place-self: center;*/
+        -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+    }
+
+    .PageSearchDTBG {
+        line-height: 46px;
+        display: inline-block;
+        width: calc(100% - 106.75px);
+        background-color: #FFF;
+        border-radius: 24px;
+        height: 48px;
+        vertical-align: middle;
+        margin: 0 20px 0 86.75px;
+        max-width: 400px;
+        -webkit-transform: translateY(50%);
+        -ms-transform: translateY(50%);
+        transform: translateY(50%);
+    }
+
+    .Page .SearchIconBlock {
+        margin-left: 36.37px;
+        margin-right: 25.85px;
+    }
+
+    .Page .SearchInputBlock {
+        width: calc(100% - 100px);
+    }
+
+    .Page .SearchIcon {
+        margin-right: 0;
+        width: 20px;
+        height: 20px;
+    }
+
+    .Page .SearchInput {
+        width: 98%;
+        border: 0;
+        font-size: 16px;
+        height: 46px;
+        line-height: 46px;
+        padding-bottom: 0px;
+    }
+
+    .SearchTitle {
+        font-size: 40px;
+        line-height: 47px;
+        padding: 63px 0 36px 0;
+    }
+
+    .SearchContainer {
+        max-width: 690px;
+    }
+
+    .SearchSection {
+        padding-bottom: 32px;
+    }
+
+    .PopularBlock {
+        padding-bottom: 67px;
+        max-width: 670px;
+        margin: 0 auto;
+    }
+
+    .maxx_header {
+        position: absolute;
+        /*left: -19.33%;
+    right: 27.38%;*/
+        left: -264px;
+        top: -627px;
+    }
+
+        .maxx_header img {
+            width: 1256px;
+            height: 1497px;
+        }
+
+        .maxx_header.ContactUs {
+            position: absolute;
+            left: -264px;
+            top: -627px;
+        }
+
+            .maxx_header.ContactUs img {
+                width: 1256px;
+                height: 1497px;
+            }
+
+    .maxx_page {
+        left: -392px;
+        top: -279px;
+    }
+
+        .maxx_page img {
+            width: 1116px;
+            height: 1153px;
+        }
+
+    .category {
+        background-color: transparent;
+        text-align: center;
+        margin: 0 auto 0px auto;
+        padding: 30px 30px 23px 32px;
+        box-shadow: none;
+    }
+
+    .CategoryList {
+        padding: 0 0 32px 0;
+    }
+
+    .CategoryIcon {
+        width: 60px;
+        height: 60px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .cat-heading {
+        font-size: 18px;
+        line-height: 27px;
+        padding-top: 21px;
+        max-width: 100%;
+    }
+
+    .category-footer {
+        padding-top: 16px;
+    }
+
+    .CategoryHolder:nth-child(1) {
+        border-bottom: 1px solid #DFDFDF;
+        border-right: 1px solid #DFDFDF;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+
+    .CategoryHolder:nth-child(2) {
+        border-bottom: 1px solid #DFDFDF;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .CategoryHolder:nth-child(3) {
+        border-right: 1px solid #DFDFDF;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .ScaleBox {
+        -webkit-transition: all .2s ease-in-out;
+        -o-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out;
+        background-color: transparent;
+        border: 0px solid transparent;
+    }
+
+        .ScaleBox:hover {
+            -webkit-transform: scale(1.16);
+            -ms-transform: scale(1.16);
+            transform: scale(1.16);
+            z-index: 10;
+            background-color: #fff;
+            box-shadow: 0px 0px 30px #E0E0E0;
+            border-radius: 15px;
+        }
+
+    .categories {
+        padding: 42px 16px 70px 20px;
+    }
+
+        .categories .CategoryHolder:nth-child(odd) {
+            margin-right: 0px;
+        }
+
+    .KBLists {
+        padding-top: 42px;
+    }
+
+    .maxx_kblists {
+        position: absolute;
+        left: 125px;
+        top: -225px;
+        z-index: 0;
+    }
+
+        .maxx_kblists img {
+            width: 1116px;
+            height: 1153px;
+            z-index: 0;
+        }
+
+    .FeaturedTitle {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .FeaturedBlock {
+        padding: 0 30px 62px 30px;
+    }
+
+    .FeaturedTitleRow {
+        padding-bottom: 21px;
+    }
+
+    .FooterLinksRow {
+        text-align: left;
+        padding: 0 80px;
+    }
+
+    .FooterLinks {
+        padding-top: 0px;
+    }
+
+    .FooterLink.Logo {
+        display: inline-block;
+    }
+
+    .FooterLogo {
+        width: 77.63px;
+        height: 19px;
+        top: 4px;
+        position: relative;
+    }
+
+    .FooterLinks {
+        font-size: 16px;
+        padding-top: 53px;
+        padding-bottom: 37px;
+        /*max-width: calc( 100% - 315px);*/
+    }
+    .LanguagePickerButton{
+        font-size:16px;
+    }
+    .SocialLinks {
+        font-size: 16px;
+        padding-top: 57px;
+    }
+
+    .FooterLink a {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .CUButton {
+        font-size: 16px;
+    }
+
+    .CopyrightRow {
+        height: 100px;
+        padding: 0px 80px;
+        text-align: left;
+        font-size: 12px;
+    }
+
+        .CopyrightRow div {
+            padding: 21px 0 36px 0;
+        }
+
+    .FollowUs {
+        font-size: 16px;
+    }
+
+    .CategoryPageFrame {
+        height: 100%;
+    }
+
+    .CategoryContent {
+        display: inline-block;
+        height: 100%;
+        vertical-align: top;
+        /*padding: 0 40px 80px 40px;*/
+        width: calc(100% - 319px);
+        max-width: 1047px;
+    }
+
+        .CategoryContent.Answer {
+            width: calc(100% - 319px);
+            max-width: none;
+            /*padding: 0 20px 80px 20px;*/
+        }
+
+    .AnswerFrame {
+        width: 100%;
+        padding-top: 0px;
+    }
+
+    .CategorySidebar {
+        display: inline-block;
+        height: 100%;
+        width: 319px;
+        min-width: 319px;
+        position: relative;
+        padding: 85px 20px 80px 52px; /*114*/
+        background-color: transparent;
+        max-height: none;
+    }
+        .CategorySidebar::after {
+            content: '';
+            position: absolute;
+            bottom: 0px;
+            right: 0;
+            height: calc(100% - 60px);
+            top: 25px;
+            border-right: 1px solid #DEDEDE;
+        }
+
+        @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+            .CategoryContent {
+            display: inline-block;
+        }
+
+        .CategorySidebar {
+            display: inline-block;
+        }
+    }
+
+    .vr-right {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        height: 92%;
+        width: 0;
+        border-right: 1px solid #DEDEDE;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+    .CategoryMenuExpand {
+        display: none;
+    }
+    .CategoryButton{
+        display:none
+    }
+    .CategoryMenu {
+        padding: 0;
+        display: block;
+    }
+
+    .Page .SearchIcon.Mobile {
+        display: none;
+    }
+
+    .CategoryMenu li {
+        padding-bottom: 0px;
+    }
+
+
+    .CategoryMenu li a {
+        font-size: 18px;
+        line-height: 27px;
+        color: #0F0F0F;
+        padding-bottom: 12px;
+        max-width: calc(100% - 35px);
+    }
+
+    .CategorySubmenu {
+        display: block;
+        padding-left: 5px;
+    }
+
+        .CategorySubmenu li {
+            padding-bottom: 0px;
+        }
+
+            .CategorySubmenu li:last-child {
+                padding-bottom: 0px;
+            }
+
+            .CategorySubmenu li a {
+                font-size: 16px;
+                line-height: 16px;
+                color: #545454;
+                font-weight: 200;
+            }
+
+    .CategoryBreadcrumbs {
+        display: block;
+        font-size: 13px;
+        line-height: 26px;
+        padding: 52px 0 23px 0;
+    }
+
+
+    .CategoryContentTitle {
+        font-size: 40px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        display:block;
+    }
+
+        .CategoryContentTitle.Sub {
+            padding-bottom: 22px;
+        }
+
+    .CategorySectionTitle {
+        font-size: 18px;
+        line-height: 48px;
+        color: #0F0F0F;
+        padding-bottom: 12px;
+    }
+
+    .CategoryList hr {
+        height: 0px;
+        border: none;
+        border-bottom: 1px solid #DEDEDE;
+    }
+
+    .CategoryList hr.Sub {
+        padding-top: 6px;
+        display: block;
+    }
+    hr.BC.Category.Sub{
+        display:none;
+    }
+    hr.BC.Answer {
+        display: none;
+    }
+.CategorySectionAnswer a {
+    font-weight: 200;
+    color: #545454;
+    padding-bottom: 16px;
+    display: block;
+}
+    .RelatedArticles{
+        background-color:transparent;
+    }
+    ul.RA {
+        list-style: disc;
+        color: #5B1CE6;
+        margin-left: 20px;
+    }
+    .RelatedArticles.Sub .CategorySectionAnswer a {
+        padding-bottom: 22px;
+    }
+    .RelatedArticles a {
+        left: -5px;
+        position: relative;
+    }
+        .CategoryContentViewAll a {
+            padding-top: 10px;
+            padding-bottom: 40px;
+            color: #0F0F0F;
+            display: block;
+        }
+
+    .SubcategoryContainer {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+        .SubcategoryContainer .Column1 {
+            -webkit-box-flex: 1;
+            -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+        }
+
+        .SubcategoryContainer .Column2 {
+            -webkit-box-flex: 1;
+            -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+            padding-left: 42px;
+            max-width: 343px;
+            min-width: 300px;
+        }
+
+    .RelatedArticles.Sub .CategoryRelatedTitle {
+        padding-top: 43px;
+    }
+
+    .share.Desktop {
+        display: inline-block;
+    }
+
+    .share.Mobile {
+        display: none;
+    }
+
+
+
+
+
+    .ContactUsCatContainer {
+        max-width: 812px;
+        margin: 0 auto;
+        padding-bottom: 48px;
+    }
+
+
+
+    .ContactUsCatBlock {
+        margin: 0px 20px 27px 0px;
+    }
+
+        .ContactUsCatBlock:nth-child(even) {
+            margin-right: 0px;
+        }
+
+
+    .ResultsTitle{
+        font-size:40px;
+    }
+
+    .ResultsBreadcrumb {
+        display: block;
+        padding-top: 48px;
+    }
+
+        .ResultsBreadcrumb a {
+            font-size: 13px;
+            font-weight: 200;
+            line-height: 26px;
+            color: #5B1CE6;
+        }
+
+    .bcStatic {
+        font-size: 13px;
+        font-weight: 200;
+        line-height: 26px;
+        color: #0F0F0F;
+    }
+    .PaginationButtons{
+        display:none;
+    }
+    .SearchResultsPaginationWrapper {
+        text-align: left;
+    }
+        .SearchResultsPaginationWrapper .pagination {
+            display: block;
+        }
+    .ResultsSearch{
+        display:none;
+    }
+    .caretbc {
+        width: 7px;
+        height: 8px;
+        margin: 0 5px;
+    }
+
+
+
+    .ErrorPageBlock {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 0 15px;
+        z-index: 1;
+        position: relative;
+    }
+
+    .ErrorPageImg404 {
+        top: 153px;
+        left: 76px;
+    }
+
+        .ErrorPageImg404 img {
+            width: 580px;
+            height: 248px;
+        }
+
+    .Error404Header {
+        padding-top: 158px;
+    }
+
+    .ErrorPageTitle {
+        font-size: 40px;
+        line-height: 60px;
+        padding-bottom: 36px;
+    }
+
+        .ErrorPageTitle .Mobile {
+            display: none;
+        }
+
+        .ErrorPageTitle .Desktop {
+            display: block;
+        }
+
+    .ErrorBodyWrapper p {
+        padding-bottom: 13px;
+    }
+
+    .ErrorBodyWrapper a {
+        font-weight: 400;
+    }
+
+    .ErrorBodyWrapper .Mobile {
+        display: none;
+    }
+
+    .ErrorBodyWrapper .Desktop {
+        display: block;
+    }
+
+        .ErrorBodyWrapper .Desktop div {
+            line-height: 24px;
+            padding-bottom: 8px;
+        }
+
+    .RCLModalTitleWrapper {
+        display: inline-block;
+        padding-top: 40px;
+        padding-bottom: 24px
+    }
+
+
+    .RCLCountry {
+        padding: 12.5px 10px 12.5px 0;
+        display: inline-block;
+        width: 32%;
+    }
+
+    .RCLLanguage {
+        padding: 12.5px 10px 12.5px 0;
+        display: inline-block;
+        width: 32%;
+    }
+
+    .RCLModalTitle {
+        display: none;
+    }
+
+    .RCLModalTopLine {
+        font-size: 32px;
+        display: inline-block;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        text-align: center;
+        width: 100%;
+    }
+
+    #ContactUsMobileDD {
+        display: none;
+    }
+
+    #ContactUsTopicBlocks {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .content.contact {
+        /*padding-top: 98px;*/
+    }
+    .SearchButtonWrapper {
+        display:none;
+    }
+    .CUDTCatBlock {
+        width: calc(25% - 20px);
+        background-color: #FFF;
+        /*padding: 60px 25px;*/
+        border-radius: 15px;
+        box-shadow: 0px 0px 30px rgba(224, 224, 224, 0.2);
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        justify-content: center;
+    }
+        .CUDTCatBlock.Selected {
+            border: 3px solid #5B1CE6;
+        }
+    .CUDTChoice {
+        width: 100%;
+        /*height: 100%;*/
+        display: block;
+        padding: 60px 25px;
+    }
+    #ContactUsTopicBlocks > * {
+        margin: 10px;
+    }
+
+    #ContactUsTopicBlocks {
+        margin: -10px;
+        padding: 19px 60px 17px 76px;
+    }
+    .CUCategoryChoice.Desktop {
+        color: #000;
+        font-size: 20px;
+        word-break: break-word;
+        overflow-wrap: break-word;
+    }
+
+    .ContactUsHelpfulArticles {
+        display: inline-block;
+        float: right;
+        margin-right: 60px;
+        margin-top: 38px;
+        border: 2px solid rgba(117, 62, 239, 0.1);
+        border-radius: 15px;
+        max-width: 475px;
+    }
+    .Channel.Help {
+        width: 100%;
+    }
+    .CUWaysTitle {
+        font-size: 32px;
+        line-height: 37px;
+        padding-left: 10px;
+    }
+    .CUCategoryTitle {
+        display: block;
+        font-size: 32px;
+        line-height: 37px;
+        color: #000;
+        text-align: left;
+        padding: 60px 0px 7px 75px;
+    }
+
+    .Channel.Other {
+        max-width: calc(45% - 20px);
+        display: block;
+        flex: 0 0 auto;
+        min-width: 320px;
+    }
+    .DeviceImgWrapper {
+        text-align: center;
+    }
+    .DeviceImgWrapper img {
+        margin:0 auto;
+    }
+    .DeviceLabel {
+        padding-left: 0px;
+        font-size: 18px;
+    }
+    .DeviceBodyDesc {
+        text-align: center;
+    }
+
+    element.style {
+    }
+
+    .OverlayModal {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        max-height: calc(100% - 140px);
+    }
+    .OverlayModalBodyWrapper {
+        max-height: calc(100vh - 300px);
+        top: 50%;
+    }
+    .ContactUsSection {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 1366px;
+    }
+    .CUTopicModalTitle {
+        display: none;
+    }
+    .CUTopicModalTitleInner {
+        display: block;
+        text-align: center;
+        font-size: 32px;
+        line-height: 37px;
+    }
+    .CUTopicModalTitleInner2{
+        display:none;
+    }
+    .PickerButton {
+        font-size: 16px;
+    }
+    .PickerValue {
+        background-position: right 0px top 8px;
+    }
+
+
+
+
+
+
+}
+    @media screen and (min-width: 1150px) {
+        .AnswerFrame {
+            width: 95%;
+        }
+        .CategoryContent.Answer {
+            padding: 0 0px 80px 60px;
+        }
+    }
+
+
+
+@media screen and (min-width: 1440px) {
+    .AnswerContainer {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+        .AnswerContainer .Column1 {
+            -webkit-box-flex: 1;
+                -ms-flex: 1 1 auto;
+                    flex: 1 1 auto;
+        }
+
+        .AnswerContainer .Column2 {
+            display: block;
+            -webkit-box-flex: 1;
+                -ms-flex: 1 1 auto;
+                    flex: 1 1 auto;
+            padding-left: 42px;
+            max-width: 343px;
+            min-width: 300px;
+        }
+
+        .AnswerContainer .RelatedArticles {
+            padding-top: 50px;
+            background-color:transparent;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
+    .RelatedArticles.Bottom {
+        display: none;
+    }
+}

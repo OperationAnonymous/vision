@@ -1,0 +1,766 @@
+@media (min-width: 800px) {
+    .HeaderRow {
+        /*height:60px;*/
+    }
+    .HeaderSpacer {
+        height: 70px;
+        width: 100%;
+    }
+    .HeaderLinkBlock {
+        /*height:60px;*/
+        width: auto;
+    }
+
+    .HeaderTitleBlock {
+        /*height:60px;*/
+        padding: 25px 0;
+    }
+
+    .HeaderTitleWrapper {
+        /*line-height: 66px;*/
+        margin-left: 20px;
+    }
+
+    .HeaderTitleLabel {
+        font-size: 16px;
+        /*line-height: 34px;*/
+        font-weight: 200;
+        padding-left: 20px;
+        display: inline-block;
+        color: #FFF;
+    }
+
+    .ContactUs .HeaderTitleLabel {
+        color: #000;
+    }
+
+    .HeaderLinkWrapper {
+        margin-right: 20px;
+        padding-top: 25px;
+    }
+
+    .HeaderLanguagePicker {
+        display: inline-block;
+        /*margin-right: 15px;*/
+        /*max-width: 290px;*/
+        text-align: right;
+    }
+
+        .HeaderLanguagePicker select {
+            top: 3px;
+        }
+
+    .Anon .HeaderLanguagePicker {
+        margin-top: 20px;
+    }
+
+    .LanguagePickerButtonLabel {
+        max-width: 200px;
+    }
+    .PickerButton {
+        display: inline-block;
+        padding-bottom:0px;
+    }
+    .PickerValue.Lang{
+        max-width: 100%
+    }
+    .maxx {
+        top: -384px;
+        left: -349px;
+    }
+
+    .AlertList {
+        padding: 0px;
+        padding-right: 10px;
+    }
+
+    .AlertWidth {
+        padding: 0 20px;
+    }
+
+    .CloseBlock {
+        top: 0px;
+        right: -14px;
+    }
+
+    .SearchBlock {
+        padding-top: 100px;
+    }
+
+    .SearchTitle {
+        font-size: 30px;
+        line-height: 35px;
+        padding: 18px 0 30px 0;
+    }
+
+    .SearchContainer {
+        width: 100%;
+        max-width: 600px;
+        /*margin: 0 auto;*/
+        padding-left: 35.41px;
+        text-align: left;
+        /*height: 74px;*/
+        line-height: 68px;
+        border-radius: 37px;
+    }
+
+    .SearchIcon {
+        width: 19.58px;
+        height: 19.58px;
+    }
+    .SearchSection {
+        height: 106px;
+    }
+    .PopularBlock {
+        padding-bottom: 60px;
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .KBLists {
+        padding-top: 23px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: distribute;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .FeatureWidth {
+        max-width: 350px;
+    }
+
+    .FeaturedTitle {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .Page .Site-content {
+        /*padding-top: 70px;*/
+    }
+
+    .FooterHR {
+        display: block;
+    }
+
+    .FooterLinksRow {
+        text-align: left;
+        padding: 0 45px;
+    }
+
+    .FooterLinksRow{
+        display: flex;
+        justify-content:space-between;
+    }
+
+    .FooterLinks {
+        display: inline-block;
+        /*    -webkit-transform: translateY(25.5px);
+        -ms-transform: translateY(25.5px);
+            transform: translateY(25.5px);*/
+        font-size: 16px;
+        padding-top: 36px;
+        padding-bottom: 36px;
+        /*width: calc(100% - 315px);*/
+        padding-left: 0px;
+    }
+    .FooterLinks{
+        flex: 1 1 auto;
+    }
+
+    .FooterLink {
+        display: inline-block;
+        padding-right: 40px;
+    }
+
+        .FooterLink a {
+            font-size: 12px;
+            line-height: 20px;
+        }
+
+    .FooterSocialLink {
+        top: -2px;
+        float: right;
+        position: relative;
+    }
+
+    .FollowUs {
+        padding: 0 10px 4px 0;
+        vertical-align: bottom;
+    }
+
+    .SocialLinks {
+        padding: 40px 0px 25px 20px;
+        /*float: right;*/
+        /*    -webkit-transform: translateY(39.5px);
+        -ms-transform: translateY(39.5px);
+            transform: translateY(39.5px);*/
+        font-size: 16px;
+        display: inline-block;
+        /*width: 100%;*/
+        /*max-width: 310px;*/
+        text-align: right;
+    }
+    .SocialLinks {
+        flex: 0 0 auto;
+    }
+    .CopyrightRow {
+        padding: 21px 45px 35px 45px;
+        font-size: 11px;
+    }
+
+        .CopyrightRow .CR {
+            line-height: 21px;
+        }
+
+    .CategoryContent {
+        padding: 0 60px 0px 60px;
+    }
+
+        .CategoryContent.Answer {
+            padding: 0;
+        }
+
+    .CategoryHolder {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 343px;
+    }
+
+    .CategoryMenu {
+        padding: 0 50px 0 60px;
+    }
+    .CategoryButton {
+        padding: 40px 60px 25px 60px;
+    }
+    .CategoryButtonLabel {
+        font-size: 40px;
+    }
+    .CategoryButton.Sub .CategoryButtonLabel {
+        font-size: 24px;
+    }
+    .category {
+        margin: 0 auto 20px auto;
+        padding: 25px 30px 22px 32px;
+    }
+
+    .categories {
+        padding: 32px 16px 10px 20px;
+        margin: 0 auto;
+        max-width: 800px;
+        /*text-align:center;*/
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+        .categories .CategoryHolder:nth-child(odd) {
+            margin-right: 20px;
+        }
+
+    .CategoryContentTitle {
+        font-size: 40px;
+        padding-bottom: 4px;
+    }
+
+        .CategoryContentTitle.Sub {
+            font-size: 40px;
+            padding-bottom: 14px;
+        }
+
+    .CategoryList {
+        padding: 0px 0px 63px 0px;
+    }
+
+        .CategoryList.Answer {
+            /*padding: 48px 20px 10px 20px;*/
+            padding: 0 60px 20px 60px;
+        }
+
+    .CategorySectionTitle {
+        line-height: 48px;
+        padding-bottom: 11px;
+    }
+
+    .CategoryContentViewAll a {
+        padding-top: 6px;
+        padding-bottom: 30px;
+    }
+
+    .CategoryList hr {
+        width: 96%;
+        margin-bottom: 18px;
+    }
+
+    .CategoryHeaderRow {
+        padding-bottom: 14px;
+    }
+
+    .FeaturedBlock {
+        max-width: 343px;
+        width: 100%;
+        margin-right: 20px;
+        padding: 0 30px 23px 30px;
+    }
+
+    .HowDoIBlock {
+        max-width: 343px;
+        width: 100%;
+    }
+
+    .AnswerFrame {
+        width: 100%;
+        /*padding-top: 84px;*/
+    }
+
+    .AnswerFeedbackSection {
+        text-align: left;
+        padding: 0px 0px 16px 0px;
+    }
+
+    .feedback {
+        width: 100%;
+        padding-top: 29px;
+        text-align: left;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .share {
+        float: right;
+        padding-top: 10px;
+    }
+
+        .share.Mobile {
+            display: none;
+        }
+
+        .share.Desktop {
+            display: inline-block;
+            padding-top: 10px;
+        }
+
+    .helpful-label {
+        display: inline-block;
+        padding-right: 16px;
+    }
+
+    .feedback-btns {
+        display: inline-block;
+    }
+
+    hr.Answer.Mobile {
+        display: none;
+    }
+
+    hr.Answer.Desktop {
+        display: block;
+    }
+    hr.BC.Answer {
+        margin: 0 60px;
+    }
+
+    hr.BC.Category {
+        margin: 0 60px;
+        display: none;
+    }
+        hr.BC.Category.Sub {
+            margin: 0 60px;
+            display: block;
+        }
+    .RelatedArticles {
+        padding: 0 60px 16px 60px;
+    }
+
+    .CategorySectionAnswer a {
+        padding-bottom: 12px;
+    }
+
+    .CategoryRelatedTitle {
+        padding-bottom: 16px;
+    }
+
+    #OtherComment {
+        width: 340px;
+        max-width: 380px;
+    }
+
+    .search-results {
+        padding: 0 60px;
+    }
+
+
+
+    .FeedbackTitle {
+        font-size: 36px;
+        line-height: 42px;
+        padding: 47px 20px 43px 20px;
+    }
+
+    .FeedbackDesc {
+        font-size: 18px;
+    }
+
+        .FeedbackDesc.Last {
+            padding-bottom: 44px;
+        }
+
+    .FeedbackButtonRow {
+        text-align: left;
+    }
+
+    .ContactUsMainDD {
+        width: 526px;
+        height: 74px;
+        margin: 0 auto;
+        margin-bottom: 58px;
+        padding: 0;
+    }
+
+        .ContactUsMainDD.Feedback {
+            margin: 0 0;
+        }
+
+    .ContactUsTitle {
+        font-size: 36px;
+        line-height: 42px;
+    }
+
+        .ContactUsTitle.Feedback {
+            padding: 46px 0px 24px 0px;
+        }
+
+    .ContactUsDesc {
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+        .ContactUsDesc.Feedback {
+            padding: 0px 0px 41px 0px;
+        }
+
+    .ChannelHeaderTitle {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .Channel.Title {
+        text-align: center;
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .ChannelBestTitle {
+        width: 50%;
+    }
+
+    .DeviceBox {
+        height: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        /*max-width: 230px;*/
+        margin: 0;
+        padding: 0 20px;
+    }
+
+        .DeviceBox.Open {
+            max-width: 375px;
+        }
+
+    .Order1 {
+        width: 50%;
+    }
+
+    [data-isopen="1"] {
+        width: 100%;
+    }
+
+    .Channel.Help {
+        width: 50%;
+        text-align: left;
+    }
+
+    .Order2 {
+        width: 33.33%;
+    }
+
+    .Order3 {
+        width: 33.33%;
+    }
+
+    .Order4 {
+        width: 33.33%;
+    }
+
+    .Channel.Div {
+    }
+
+    .Channel.Div2 {
+        display: none;
+    }
+
+    .Channel.Div3 {
+        display: none;
+    }
+
+    #HelpKBList a {
+        text-align: left;
+    }
+
+    #ChannelBlockHelp .Cat {
+        text-align: left;
+    }
+
+    #ChannelBlockHelp .Title {
+        text-align: left;
+    }
+
+    .Channel.Help.Open {
+        /*display:none;*/
+        text-align: center;
+        display: inline-block;
+        max-width: 320px;
+        margin: 0 auto;
+    }
+
+        .Channel.Help.Open > .Title {
+            text-align: center !important;
+        }
+
+        .Channel.Help.Open > .Cat {
+            text-align: center !important;
+        }
+
+        .Channel.Help.Open #HelpKBList a {
+            text-align: center !important;
+        }
+
+    .DeviceBox .BackButton {
+        font-size: 18px;
+        line-height: 21px;
+        padding-top: 9px;
+    }
+
+    .DeviceBox.Open .ChannelHeaderTitle {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .EmailButtonSection {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+        max-width: 525px;
+        margin: 0 auto;
+    }
+
+    .EmailSubmitButtonWrapper {
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+    }
+
+    .EmailTerms {
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2;
+        -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    #EmailSubmit {
+        width: 169px;
+        height: 42px;
+    }
+
+    .EmailFormField.Recaptcha {
+        margin: 0 auto 33px auto;
+    }
+
+    .EmailSubmitButtonWrapper {
+        padding-bottom: 58px;
+    }
+
+    .ChannelsBestMethod {
+        display: inline-block;
+        width: 50%;
+    }
+
+    .ChannelsHelpYourself {
+        display: inline-block;
+        width: 50%;
+    }
+
+    .ChannelsOther {
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+    }
+
+    .Channel.Other {
+        max-width: calc(33.33% - 20px);
+        display: block;
+        flex: 0 0 auto;
+        min-width: 325px;
+    }
+    .OverlayModal {
+        top: calc(50% + 27px);
+    }
+    .OverlayModalBodyWrapper {
+        width: 100%;
+        max-height: calc(100vh - 170px);
+        position: relative;
+        overflow: auto;
+        padding: 12.5px 65px 25px 65px;
+        text-align: left;
+    }
+
+
+
+
+    .AppReviewTitle {
+        font-size: 36px;
+        line-height: 42px;
+        padding: 47px 20px 10px 20px;
+        color: #0f0f0f;
+    }
+
+    .AppReviewTitleSub1 {
+        padding: 0px 0px 20px 20px;
+        font-size: 24px;
+        color: #5b35e5;
+        font-weight: 200;
+    }
+
+    .AnsFeedbackRow {
+        display: inline-block;
+        width: 50%;
+        vertical-align: top;
+    }
+
+
+    .ContactUsTopicButton {
+        padding: 40px 65px 35px 65px;
+        font-size: 40px;
+    }
+
+    .ContactUsHelpfulArticles {
+        padding: 35px 65px;
+    }
+
+    .ChannelsBlock {
+        padding: 0 65px 65px 65px;
+    }
+
+    .CUWaysTitle {
+        padding-left: 0px;
+        padding-bottom: 20px;
+    }
+
+    .ChannelsSection {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+        .ChannelsSection > * {
+            margin: 10px;
+        }
+
+    .ChannelsSection {
+        margin: -10px 0 0 0;
+    }
+
+    .ChannelIcon {
+        vertical-align: middle;
+    }
+
+    .DeviceImgWrapper {
+        padding: 25px;
+        padding: 25px 0 15px 0;
+        text-align: left;
+    }
+        .DeviceImgWrapper img {
+            display: block;
+        }
+    .DeviceLabel {
+        text-align: center;
+        vertical-align: middle;
+        padding-left: 12px;
+    }
+    .DeviceLabel.Phone.Title{
+        display:none;
+    }
+    .DeviceLabel.Phone.Title2 {
+        display: block;
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .CUTopicModalTitleInner2 {
+        display: block;
+        font-size: 24px;
+        line-height: 25px;
+        text-align: center;
+        padding: 60px 0 15px 0;
+    }
+    .DeviceBodyDesc {
+        text-align: left;
+    }
+
+
+    .CUOverlayModal {
+        left: 50%;
+        top: 50%;
+        bottom: auto;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        padding-bottom: 5px;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+
+    }
+    .LanguagePickerOverlay {
+        left: auto;
+        right: 0;
+        bottom: 9px;
+    }
+}
