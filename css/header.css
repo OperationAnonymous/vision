@@ -121,7 +121,8 @@ a {
 /* Name Perfil */
 @media screen and (min-width: 300px) {
   .name-tag {
-    display: none;
+    display
+    : none;
   }
   .hidden-p {
     display: none;
